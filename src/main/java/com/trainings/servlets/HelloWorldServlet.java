@@ -10,7 +10,7 @@ import jakarta.servlet.ServletResponse;
 import jakarta.servlet.annotation.WebServlet;
 
 @SuppressWarnings("serial")
-@WebServlet(urlPatterns = "/hello")
+//@WebServlet(urlPatterns = "/hello")
 public class HelloWorldServlet extends GenericServlet {
 
 	@Override
